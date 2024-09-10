@@ -27,9 +27,11 @@ const ProjectItem = ({ title , imag, gitlink, demolink}) => (
       <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = gitlink}>
         Github
       </button>
-      <button className="btn btn-color-2 project-btn" onClick={() => window.location.href = demolink}>
+      <a href={demolink}>
+      <button className="btn btn-color-2 project-btn" >
         Live Demo
       </button>
+      </a>
     </div>
   </div>
 );
