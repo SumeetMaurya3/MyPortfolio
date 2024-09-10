@@ -459,7 +459,7 @@ section {
 }
 
 .btn-color-2 {
-    background: none;
+    background: rgb(255, 255, 255, 0.3);
 }
 
 .btn-color-2:hover {
@@ -504,10 +504,11 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 0 0 1.5rem 0rem;
+    width: 100%;
     flex: 1;
     background: white;
-    border-radius: 2rem;
+    border-radius: 2.1rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
@@ -582,9 +583,10 @@ article .icon {
 }
 
 .project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    border-radius: 2rem 2rem 0 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 .project-title {
@@ -595,6 +597,9 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+.experience-sub-title {
+  font-size: 1.1rem;
 }
 
 /* CONTACT */
@@ -624,6 +629,13 @@ article .icon {
     gap: 0.5rem;
     margin: 1rem;
 }
+.contact-info-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
 
 .contact-info-container p {
     font-size: larger;
@@ -647,7 +659,6 @@ footer {
 footer p {
     text-align: center;
 }
-
 
 
 
@@ -763,5 +774,8 @@ footer p {
   }
   .text-container {
       text-align: justify;
+  }
+  .details-container {
+    margin: 0 1rem;
   }
 }

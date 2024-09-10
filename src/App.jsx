@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';  // Add CSS for styling
 import About from './about';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contacts';
+import './style.scss';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -119,8 +119,8 @@ function App() {
             </button>
           </div>
           <div id="socials-container">
-            <img src="./assets/linkedin.png" alt="LinkedIn" className="icon" onClick={() => window.location.href='https://linkedin.com'} />
-            <img src="./assets/github.png" alt="Github" className="icon" onClick={() => window.location.href='https://github.com'} />
+            <img src="./assets/linkedin.png" alt="LinkedIn" className="icon" onClick={() => window.location.href='https://www.linkedin.com/in/sumeet-maurya-657165260/'} />
+            <img src="./assets/github.png" alt="Github" className="icon" onClick={() => window.location.href='https://github.com/SumeetMaurya3/'} />
           </div>
         </div>
       </section>
@@ -135,7 +135,7 @@ function App() {
 
       {/* Footer */}
       <footer>
-        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+        <p>Copyright &#169; 2024 Sumeet Maurya. All Rights Reserved.</p>
       </footer>
     </div>
   );

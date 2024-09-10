@@ -8,11 +8,15 @@ function Contact() {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img src="./assets/email.png" alt="Email icon" className="icon contact-icon email-icon" />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:sumeetmaurya135@gmail.com">sumeetmaurya135@gmail.com</a></p>
         </div>
         <div className="contact-info-container">
           <img src="./assets/linkedin.png" alt="LinkedIn icon" className="icon contact-icon" />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/sumeet-maurya-657165260/">LinkedIn</a></p>
+        </div>
+        <div className="contact-info-container2">
+          <img src="./assets/github.png" alt="Github icon" className="icon contact-icon" />
+          <p><a href="https://github.com/SumeetMaurya3">GitHub</a></p>
         </div>
       </div>
     </section>
