@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import About from './about';
-import Experience from './Experience';
-import Projects from './Projects';
-import Contact from './Contacts';
+import About from './About.jsx';
+import Experience from './Experience.jsx';
+import Projects from './Projects.jsx';
+import Contact from './Contacts.jsx';
 import './style.scss';
 
 function App() {
