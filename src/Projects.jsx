@@ -8,8 +8,8 @@ function Projects() {
       <div className="experience-details-container">
         <div className="about-containers">
           <ProjectItem title="Movie Recommendation System" imag = "./assets/1.png" gitlink = "https://github.com/SumeetMaurya3/MovieRecommendationSystem" demolink="https://bingeee.onrender.com/"/>
-          <ProjectItem title="Project Two" imag = "./assets/project-2.png"/>
-          <ProjectItem title="Project Three" imag = "./assets/project-3.png"/>
+          <ProjectItem title="Virtual Classroom" imag = "./assets/2.jpg" gitlink="https://github.com/SumeetMaurya3/Virtual-Classroom-Frontend" demolink="https://github.com/SumeetMaurya3/Virtual-Classroom-Frontend"/>
+          <ProjectItem title="Sign Language Detection" imag = "./assets/3.jpg" gitlink="https://github.com/SumeetMaurya3/"/>
         </div>
       </div>
       <img src="./assets/arrow.png" alt="Arrow" className="icon arrow" onClick={() => window.location.href = './#experience'} />
